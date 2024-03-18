@@ -18,12 +18,21 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
+console.log("NumberTeacher strictly equal to stringTeacher?", numberTeacher === stringTeacher);
+4 === "4"
+// false
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log("numberTeachers not equal to numberStudents?", numberTeacher !== numberStudent);
+4 !== 20
+//true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+console.log("numberStudent greater than or equal to 21?", numberStudent > 21);
+20>21
+// false
 
 
 // #-------------------
@@ -36,11 +45,17 @@ var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+log the result of the comparison: is number of friends greater than number of siblings?
+  6 > 2
+  //true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+log result of the comparison: is number of attendees not equal to number of meals?
+  9 !== 8
+  //true
 
 
 // #-------------------
@@ -63,10 +78,15 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
 
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
+console.log(lovesToPlay || lovesDogPark);
 
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
 // HINT: Use the age variable and assume that a puppy is less than 2 years old
+console.log(lovesToPlay && isPuppy);
+age<2 
+1 true
